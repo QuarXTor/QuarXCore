@@ -1,0 +1,12 @@
+[package]
+name = "quarxtor-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "quarxtor_core"
+path = "src/lib.rs"
+
+[dependencies]
+smallvec = "1"
+blake3   = "1"
